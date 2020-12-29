@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import {Drawer} from 'components';
+// @ts-ignore
+import {Drawer, Test} from 'components';
 import './App.css';
 
 const {Box} = Drawer
@@ -14,6 +15,7 @@ function App() {
             <span>dfad</span>
           </Box>
         </Drawer>
+        <Test></Test>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

@@ -1,1 +1,2 @@
-exprot * from './Drawer'
+export * from './Drawer';
+export * from './Test';
