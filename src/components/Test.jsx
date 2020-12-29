@@ -1,5 +1,5 @@
 import React from 'react';
-import {Drawer} from './components/Drawer';
+import {Drawer} from 'components';
 
 const {Box} = Drawer
 
