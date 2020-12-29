@@ -1,12 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import {Drawer} from 'components';
 import './App.css';
 
+const {Box} = Drawer
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Drawer condition={true}>
+          <Box>
+            <span>dfad</span>
+          </Box>
+        </Drawer>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
