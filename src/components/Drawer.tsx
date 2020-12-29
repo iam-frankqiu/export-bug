@@ -7,7 +7,7 @@ interface IProps extends Props {
   condition: boolean[] | boolean;
 }
 
-export default class Drawer extends Component<IProps, {}> {
+export class Drawer extends Component<IProps, {}> {
   static Box: (props: Props) => JSX.Element;
   render() {
     return (
